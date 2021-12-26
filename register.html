@@ -8,12 +8,30 @@
 </head>
 <body>
     <form>
-이름<br>
-        <input type="text"><br>
-        비밀번호<br>
-        <input type="text"><br>
+        name<br>
+        <input type="text" minlength="3" maxlength="5" name="name"><br>
+        
+        <span color="yellow">  email</span><br><input type="email" name="email"><br>
+        password<br><input type="password" maxlength="5" name="password"><br>
+        birthday<input type="date" name="birthday"><br>
+        gender<br>
+        <input type="radio" name="gender">male <br>
+        <input type="radio" name="gender">female<br>
+        <input type="radio" name="gender">other<br>
+        animals<br>
+        <input type="checkbox" name="cats"> cats<br>
+        <input type="checkbox" name="dogs"> dogs<br>
+        <input type="checkbox" name="tigers"> tigers<br>
+        Cars:
+        <select>
+           <option value="audi" name="audi">audi</option>     
+            <option value="bens" name="bens">bens</option>
+        </select>
+<br>
+
         <input type="submit" value="쓔웅~"><br>
         <input type="reset">
     <br> <a href="index.html">Back to index</a>  
 </body>
 </html>
+
